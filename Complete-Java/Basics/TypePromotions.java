@@ -18,6 +18,22 @@ public class TypePromotions {
         
         System.out.println("byte to int eg : "+bi);
 
+        //type promotion best example
+        byte b1 = 12;
+        short s = 459;
+        int i1 = 7830;
+        float f = 4405.494f;
+        double dou = .12345;
+
+        double result = (f*b1) + (i1/c) +(dou*s);
+        // here byte is auto converted to float in f*b1 
+        // c is converted to int in i1/c like wise dou*s also 
+        
+        System.out.println(f*b1+" + "+i1/c + " - "+ dou*s);
+        System.out.println("result: "+result);
+
+
+
 
     }
 }
