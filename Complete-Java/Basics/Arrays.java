@@ -1,4 +1,3 @@
-import javax.print.attribute.standard.MediaSize.Other;
 
 public class Arrays {
     public static void main(String[] args) {
